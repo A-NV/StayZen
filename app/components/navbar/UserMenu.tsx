@@ -33,7 +33,7 @@ const UserMenu = () => {
                 >
                 Airbnb your home
                 </div>
-                
+                .
                 <div
                  onClick={toggleOpen}
                  className='
