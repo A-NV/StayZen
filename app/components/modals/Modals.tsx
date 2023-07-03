@@ -11,7 +11,7 @@ interface ModalProps {
   title?: string;
   body?: React.ReactElement;
   footer?: React.ReactElement;
-  actionLabel?: string;
+  actionLabel: string;
   disabled?: boolean;
   secondaryAction?: () => void;
   secondaryActionLabel?: string;
@@ -147,7 +147,7 @@ const Modal: React.FC<ModalProps> = ({
                     hover:opacity-70
                     transition
                     absolute
-                    left-0
+                    left-9
                   "
                 >
                   <IoMdClose size={18}/>
@@ -189,6 +189,7 @@ const Modal: React.FC<ModalProps> = ({
                     onClick={handleSubmit}
                   />
                 </div>
+                {footer}
               </div>
 
             </div>
