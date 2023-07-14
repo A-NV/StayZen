@@ -7,14 +7,28 @@ const Logo = () => {
     const router = useRouter();
 
     return (
-        <Image 
+        <div 
             onClick={() => router.push('/')}
-            alt="Logo"
-            className="hidden md:block cursor-pointer"
-            height="100"
-            width="100"
-            src="/images/logo.png"
-        />
+            className="
+                flex 
+                items-center 
+                justify-between 
+                py-3
+                md:py-5 
+                md:block
+            "
+         >
+            <div className="
+                container 
+                flex 
+                items-center 
+                space-x-2
+                "
+                >
+              <h2 className="text-2xl font-bold text-rose-500 ">StayZen</h2>
+            </div>
+        </div>
+          
     )
 }
 
