@@ -11,7 +11,7 @@ import RentModal from './components/modals/RentModal'
 import SearchModal from './components/modals/SearchModal'
 
 export const metadata = {
-  title: 'Airbnb',
+  title: 'StayZen',
   description: 'Airbnb Clone',
 }
 
